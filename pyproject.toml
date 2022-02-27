@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ragt.ag"
+version = "0.0.1"
+description = "Personal website for Angelo Gladding"
+authors = ["Angelo Gladding <angelo@ragt.ag>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+packages = [{include="ragt_ag"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+understory = "^0.0.160"
+understory-code = "^0.0.18"
+
+[tool.poetry.dev-dependencies]
+
+[[tool.poetry.source]]
+name = "main"
+url = "http://localhost:8080/_pypi"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
