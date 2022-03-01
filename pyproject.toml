@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ragt.ag"
-version = "0.0.1"
+version = "0.0.3"
 description = "Personal website for Angelo Gladding"
 authors = ["Angelo Gladding <angelo@ragt.ag>"]
 license = "AGPL-3.0-or-later"
@@ -9,8 +9,8 @@ packages = [{include="ragt_ag"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-understory = "^0.0.160"
-understory-code = "^0.0.18"
+understory = "^0.0.162"
+understory-code = "^0.0.45"
 
 [tool.poetry.dev-dependencies]
 
